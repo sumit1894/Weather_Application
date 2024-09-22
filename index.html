@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <h1>Weather</h1>
+
+
+    <div class="container">
+
+        <!----------------------------Header------------------------------------>
+
+        <div class="weather_header">
+
+            <button class="search-icon"> <i class="fa fa-search"></i></button>
+            <input type="text" class="search" placeholder="Search City"></input>
+
+        </div>
+
+        <!--------------------------Header-Body---------------------------------->
+
+        <div class="weather_body">
+
+            <h2 class="country_inp"></h2>
+            <p class="date"></p>
+            <div class="weather_feels"></div>
+            <div class="weather_png"></div>
+            <div class="temp">0&deg;</div>
+            <div class="min_max_value">
+                <p class="min"></p>
+                <p class="max"></p>
+            </div>
+
+        </div>
+
+
+        <!--------------------------Footer------------------------------------->
+
+
+        <div class="weather_footer">
+
+            <div class="feels_like footer">
+                <i class="fa-solid fa-temperature-three-quarters"></i>
+                <div class="feels_like_data">
+                    <p>Feels Like</p>
+                    <p class="feels_deg">&deg;</p>
+                </div>
+            </div>
+
+            <div class="humidity footer">
+                <i class="fa-solid fa-water"></i>
+                <div class="humidity_data">
+                    <p>Humidity</p>
+                    <p class="humidity_deg"></p>
+                </div>
+            </div>
+
+            <div class="wind footer">
+                <i class="fa-solid fa-wind"></i>
+                <div class="wind_data">
+                    <p>Wind</p>
+                    <p class="wind_speed"></p>
+                </div>
+            </div>
+
+            <div class="pressure footer">
+                <i class="fa-solid fa-tachometer"></i>
+                <div class="pressure_data">
+                    <p>Pressure</p>
+                    <p class="wind_pre"></p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="Script.js"></script>
+
+</html>
